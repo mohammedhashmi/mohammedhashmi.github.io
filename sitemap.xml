@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://mohammedhashmi.github.io/2020/01/31/rn-async-sqlite-with-server/</loc>
+    <loc>http://mohammedhashmi.github.io/2020/03/29/mysql-cheat-sheet/</loc>
     
-    <lastmod>2020-02-04T12:28:40.761Z</lastmod>
+    <lastmod>2020-03-29T00:25:01.897Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://mohammedhashmi.github.io/2020/01/27/chand-satisfaction/</loc>
     
-    <lastmod>2020-01-27T14:39:12.129Z</lastmod>
+    <lastmod>2020-03-28T23:36:28.202Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://mohammedhashmi.github.io/2020/01/31/rn-async-sqlite-with-server/</loc>
+    
+    <lastmod>2020-02-04T12:28:40.761Z</lastmod>
     
   </url>
   
