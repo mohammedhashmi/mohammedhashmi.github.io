@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://mohammedhashmi.github.io/aboutme/index.html</loc>
+    
+    <lastmod>2020-04-08T11:12:52.281Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://mohammedhashmi.github.io/2020/04/08/vim-search-find-replace/</loc>
     
     <lastmod>2020-04-08T10:54:06.202Z</lastmod>
