@@ -81,6 +81,58 @@ ga('send', 'pageview');
       <div class="outer">
         <section id="main">
   
+    <article id="post-shots" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/04/17/shots/" class="article-date">
+  <time datetime="2020-04-17T11:14:25.000Z" itemprop="datePublished">2020-04-17</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/04/17/shots/">ruby trick shots</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">rand(10)</span><br><span class="line"></span><br><span class="line">high &#x3D; 20</span><br><span class="line">low &#x3D; 10</span><br><span class="line"></span><br><span class="line">rand(high -low) + low</span><br><span class="line"></span><br><span class="line">rand(1..30)</span><br><span class="line"></span><br><span class="line">Random.new.rand(10..40)</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gem install awesome_print</span><br></pre></td></tr></table></figure>
+
+<p>it puts in a very segregated way out to print your output on terminal</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ap [1,4,5]</span><br></pre></td></tr></table></figure>
+
+<h3 id="concatenation"><a href="#concatenation" class="headerlink" title="concatenation"></a>concatenation</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&quot;abc&quot; + &quot;def&quot;</span><br><span class="line"></span><br><span class="line">&quot;abc&quot;.concat(&quot;def&quot;)</span><br><span class="line"></span><br><span class="line">puts &quot;abc&quot; &quot;def&quot;</span><br><span class="line"></span><br><span class="line">x &#x3D; &quot;abd&quot; &quot; cef&quot;</span><br></pre></td></tr></table></figure>
+<h3 id="simple-presence-of-substring"><a href="#simple-presence-of-substring" class="headerlink" title="simple presence of substring"></a>simple presence of substring</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">2.5.1 :001 &gt; x &#x3D; &#39;this is a text&#39;</span><br><span class="line"> &#x3D;&gt; &quot;this is a text&quot;</span><br><span class="line">2.5.1 :002 &gt; x[&#39;text&#39;]</span><br><span class="line"> &#x3D;&gt; &quot;text&quot;</span><br><span class="line">2.5.1 :003 &gt; x[&#39;foo&#39;]</span><br><span class="line"> &#x3D;&gt; nil</span><br></pre></td></tr></table></figure>
+
+<h3 id="spaces-as-string-delimiters"><a href="#spaces-as-string-delimiters" class="headerlink" title="spaces as string delimiters"></a>spaces as string delimiters</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">2.5.1 :012 &gt; x &#x3D; &quot;this&quot;</span><br><span class="line"> &#x3D;&gt; &quot;this&quot; </span><br><span class="line">2.5.1 :013 &gt; x &#x3D; %&#123;some awesome foo text&#125;</span><br><span class="line"> &#x3D;&gt; &quot;some awesome foo text&quot; </span><br><span class="line">2.5.1 :014 &gt; x &#x3D; %|some random text|</span><br><span class="line"> &#x3D;&gt; &quot;some random text&quot; </span><br><span class="line">2.5.1 :015 &gt; % hello .length</span><br><span class="line"> &#x3D;&gt; 5</span><br></pre></td></tr></table></figure>
+<h3 id="multiple-module-inclusion"><a href="#multiple-module-inclusion" class="headerlink" title="multiple module inclusion"></a>multiple module inclusion</h3>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://mohammedhashmi.github.io/2020/04/17/shots/" data-id="ck982g5x700083mok6yoff5v1" class="article-share-link">Share</a>
+      
+        <a href="http://mohammedhashmi.github.io/2020/04/17/shots/#disqus_thread" class="article-comment-link">Comments</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ruby/" rel="tag">ruby</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ruby-1/" rel="tag">ruby#1</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tips-and-tricks/" rel="tag">tips and tricks</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-tmux" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2020/04/11/tmux/" class="article-date">
@@ -110,7 +162,7 @@ ga('send', 'pageview');
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mohammedhashmi.github.io/2020/04/11/tmux/" data-id="ck8ussrag0001ksokcm609kso" class="article-share-link">Share</a>
+      <a data-url="http://mohammedhashmi.github.io/2020/04/11/tmux/" data-id="ck982g5x400053mokbw31fv58" class="article-share-link">Share</a>
       
         <a href="http://mohammedhashmi.github.io/2020/04/11/tmux/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -161,7 +213,7 @@ ga('send', 'pageview');
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mohammedhashmi.github.io/2020/04/08/vim-search-find-replace/" data-id="ck8ussrb0000eksokhz48eo5s" class="article-share-link">Share</a>
+      <a data-url="http://mohammedhashmi.github.io/2020/04/08/vim-search-find-replace/" data-id="ck982g5x500063mokhtcmdom5" class="article-share-link">Share</a>
       
         <a href="http://mohammedhashmi.github.io/2020/04/08/vim-search-find-replace/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -232,7 +284,7 @@ ga('send', 'pageview');
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mohammedhashmi.github.io/2020/03/29/mysql-cheat-sheet/" data-id="ck8ussrbe000rksok0bk2g52n" class="article-share-link">Share</a>
+      <a data-url="http://mohammedhashmi.github.io/2020/03/29/mysql-cheat-sheet/" data-id="ck982g5x300043mokct5396yx" class="article-share-link">Share</a>
       
         <a href="http://mohammedhashmi.github.io/2020/03/29/mysql-cheat-sheet/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -280,7 +332,7 @@ ga('send', 'pageview');
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mohammedhashmi.github.io/2020/01/31/rn-async-sqlite-with-server/" data-id="ck8ussrbf000tksokhgo1cgj9" class="article-share-link">Share</a>
+      <a data-url="http://mohammedhashmi.github.io/2020/01/31/rn-async-sqlite-with-server/" data-id="ck982g5wz00023mokelnb8zub" class="article-share-link">Share</a>
       
         <a href="http://mohammedhashmi.github.io/2020/01/31/rn-async-sqlite-with-server/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -322,7 +374,7 @@ ga('send', 'pageview');
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mohammedhashmi.github.io/2020/01/27/chand-satisfaction/" data-id="ck8ussra90000ksokeso3a15b" class="article-share-link">Share</a>
+      <a data-url="http://mohammedhashmi.github.io/2020/01/27/chand-satisfaction/" data-id="ck982g5w100003mok3wdccnib" class="article-share-link">Share</a>
       
         <a href="http://mohammedhashmi.github.io/2020/01/27/chand-satisfaction/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -364,7 +416,7 @@ ga('send', 'pageview');
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mohammedhashmi.github.io/2020/01/23/rn-database/" data-id="ck8ussrbd000qksokfmjm9ejv" class="article-share-link">Share</a>
+      <a data-url="http://mohammedhashmi.github.io/2020/01/23/rn-database/" data-id="ck982g5x800093mok144h5mr2" class="article-share-link">Share</a>
       
         <a href="http://mohammedhashmi.github.io/2020/01/23/rn-database/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -392,7 +444,7 @@ ga('send', 'pageview');
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/async-await/" rel="tag">async await</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/brother/" rel="tag">brother</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/code/" rel="tag">code</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/database/" rel="tag">database</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/find/" rel="tag">find</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/friend/" rel="tag">friend</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hard-worker/" rel="tag">hard worker</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/learn-it/" rel="tag">learn it</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mysql/" rel="tag">mysql</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mysql-commands/" rel="tag">mysql commands</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/offline/" rel="tag">offline</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/react-native/" rel="tag">react-native</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/redux-saga/" rel="tag">redux saga</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/replace/" rel="tag">replace</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/rn-sqlite/" rel="tag">rn sqlite</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/search/" rel="tag">search</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/sqlite/" rel="tag">sqlite</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tmux-learning/" rel="tag">tmux learning</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tmux-1/" rel="tag">tmux#1</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vim/" rel="tag">vim</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vim-tmux/" rel="tag">vim tmux</a></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/async-await/" rel="tag">async await</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/brother/" rel="tag">brother</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/code/" rel="tag">code</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/database/" rel="tag">database</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/find/" rel="tag">find</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/friend/" rel="tag">friend</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hard-worker/" rel="tag">hard worker</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/learn-it/" rel="tag">learn it</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mysql/" rel="tag">mysql</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mysql-commands/" rel="tag">mysql commands</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/offline/" rel="tag">offline</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/react-native/" rel="tag">react-native</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/redux-saga/" rel="tag">redux saga</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/replace/" rel="tag">replace</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/rn-sqlite/" rel="tag">rn sqlite</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ruby/" rel="tag">ruby</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ruby-1/" rel="tag">ruby#1</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/search/" rel="tag">search</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/sqlite/" rel="tag">sqlite</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tips-and-tricks/" rel="tag">tips and tricks</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tmux-learning/" rel="tag">tmux learning</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tmux-1/" rel="tag">tmux#1</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vim/" rel="tag">vim</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vim-tmux/" rel="tag">vim tmux</a></li></ul>
     </div>
   </div>
 
@@ -402,7 +454,7 @@ ga('send', 'pageview');
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/async-await/" style="font-size: 10px;">async await</a> <a href="/tags/brother/" style="font-size: 10px;">brother</a> <a href="/tags/code/" style="font-size: 10px;">code</a> <a href="/tags/database/" style="font-size: 20px;">database</a> <a href="/tags/find/" style="font-size: 10px;">find</a> <a href="/tags/friend/" style="font-size: 10px;">friend</a> <a href="/tags/hard-worker/" style="font-size: 10px;">hard worker</a> <a href="/tags/learn-it/" style="font-size: 10px;">learn it</a> <a href="/tags/mysql/" style="font-size: 10px;">mysql</a> <a href="/tags/mysql-commands/" style="font-size: 10px;">mysql commands</a> <a href="/tags/offline/" style="font-size: 10px;">offline</a> <a href="/tags/react-native/" style="font-size: 10px;">react-native</a> <a href="/tags/redux-saga/" style="font-size: 10px;">redux saga</a> <a href="/tags/replace/" style="font-size: 10px;">replace</a> <a href="/tags/rn-sqlite/" style="font-size: 10px;">rn sqlite</a> <a href="/tags/search/" style="font-size: 10px;">search</a> <a href="/tags/sqlite/" style="font-size: 10px;">sqlite</a> <a href="/tags/tmux-learning/" style="font-size: 10px;">tmux learning</a> <a href="/tags/tmux-1/" style="font-size: 10px;">tmux#1</a> <a href="/tags/vim/" style="font-size: 10px;">vim</a> <a href="/tags/vim-tmux/" style="font-size: 10px;">vim tmux</a>
+      <a href="/tags/async-await/" style="font-size: 10px;">async await</a> <a href="/tags/brother/" style="font-size: 10px;">brother</a> <a href="/tags/code/" style="font-size: 10px;">code</a> <a href="/tags/database/" style="font-size: 20px;">database</a> <a href="/tags/find/" style="font-size: 10px;">find</a> <a href="/tags/friend/" style="font-size: 10px;">friend</a> <a href="/tags/hard-worker/" style="font-size: 10px;">hard worker</a> <a href="/tags/learn-it/" style="font-size: 10px;">learn it</a> <a href="/tags/mysql/" style="font-size: 10px;">mysql</a> <a href="/tags/mysql-commands/" style="font-size: 10px;">mysql commands</a> <a href="/tags/offline/" style="font-size: 10px;">offline</a> <a href="/tags/react-native/" style="font-size: 10px;">react-native</a> <a href="/tags/redux-saga/" style="font-size: 10px;">redux saga</a> <a href="/tags/replace/" style="font-size: 10px;">replace</a> <a href="/tags/rn-sqlite/" style="font-size: 10px;">rn sqlite</a> <a href="/tags/ruby/" style="font-size: 10px;">ruby</a> <a href="/tags/ruby-1/" style="font-size: 10px;">ruby#1</a> <a href="/tags/search/" style="font-size: 10px;">search</a> <a href="/tags/sqlite/" style="font-size: 10px;">sqlite</a> <a href="/tags/tips-and-tricks/" style="font-size: 10px;">tips and tricks</a> <a href="/tags/tmux-learning/" style="font-size: 10px;">tmux learning</a> <a href="/tags/tmux-1/" style="font-size: 10px;">tmux#1</a> <a href="/tags/vim/" style="font-size: 10px;">vim</a> <a href="/tags/vim-tmux/" style="font-size: 10px;">vim tmux</a>
     </div>
   </div>
 
@@ -424,6 +476,10 @@ ga('send', 'pageview');
       <ul>
         
           <li>
+            <a href="/2020/04/17/shots/">ruby trick shots</a>
+          </li>
+        
+          <li>
             <a href="/2020/04/11/tmux/">tmux</a>
           </li>
         
@@ -437,10 +493,6 @@ ga('send', 'pageview');
         
           <li>
             <a href="/2020/01/31/rn-async-sqlite-with-server/">react native async with sqlite to server with redux saga</a>
-          </li>
-        
-          <li>
-            <a href="/2020/01/27/chand-satisfaction/">chand satisfaction</a>
           </li>
         
       </ul>
